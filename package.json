@@ -1,1 +1,7 @@
-
+{
+“name”: “nexus-relay”,
+“version”: “1.0.0”,
+“description”: “Serverless streaming relay for Xray/V2Ray on Vercel”,
+“private”: true,
+“license”: “MIT”
+}
