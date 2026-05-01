@@ -1,14 +1,14 @@
 {
-“version”: 2,
-“name”: “nexus-relay”,
-“functions”: {
-“relay/handler.js”: {
-“memory”: 128,
-“maxDuration”: 60
-}
-},
-“rewrites”: [
-{ “source”: “/(.*)”, “destination”: “/relay/handler” }
-],
-“trailingSlash”: false
+  "version": 2,
+  "name": "nexus-relay",
+  "functions": {
+    "api/handler.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/handler" }
+  ],
+  "trailingSlash": false
 }
